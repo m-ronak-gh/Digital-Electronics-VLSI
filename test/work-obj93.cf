@@ -1,0 +1,4 @@
+v 4
+file . "hello.vhd" "17e96071526bbc5f899478d89a1512176a8104fb" "20260621201253.512":
+  entity hello at 1( 0) + 0 on 11;
+  architecture behavioral of hello at 7( 72) + 0 on 12;
