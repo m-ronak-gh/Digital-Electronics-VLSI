@@ -54,7 +54,6 @@ begin
                     if tick = '1' then
                         current_state <= DATA_BITS;
                     end if;
-                    current_state <= DATA_BITS;
                 when DATA_BITS =>
                     busy <= '1';
                     tx <= shift_reg(bit_index);

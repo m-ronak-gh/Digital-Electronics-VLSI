@@ -1,0 +1,9 @@
+ghdl -a src/baud_generator.vhd
+ghdl -a src/uart_tx.vhd
+ghdl -a src/uart_rx.vhd
+ghdl -a src/uart_top.vhd
+ghdl -a tb/uart_system_tb.vhd
+
+ghdl -e uart_system_tb
+
+ghdl -r uart_system_tb --vcd=uart_system.vcd
