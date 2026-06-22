@@ -1,0 +1,10 @@
+v 4
+file . "tb/uart_tb.vhd" "b481c829e6200145f764b7703b731d12078f5526" "20260622063729.831":
+  entity uart_tb at 1( 0) + 0 on 19;
+  architecture behavioral of uart_tb at 8( 102) + 0 on 20;
+file . "src/baud_generator.vhd" "9d95fcfa65f357564f32fd708fe7f32b89b6e4b4" "20260622053006.936":
+  entity baud_generator at 1( 0) + 0 on 11;
+  architecture behavioral of baud_generator at 13( 221) + 0 on 12;
+file . "src/uart_tx.vhd" "89430c6f667c959212ac689d405113283cd8137a" "20260622060910.113":
+  entity uart_tx at 1( 0) + 0 on 13;
+  architecture behavioral of uart_tx at 18( 366) + 0 on 14;
